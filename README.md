@@ -1,112 +1,162 @@
 # DecodeLabs-Internship-Task-2
-# 🌸 Iris Flower Classification using Machine Learning
+# Iris Flower Classification
 
-This project builds a Machine Learning model to classify Iris flowers into three species based on their sepal and petal measurements. The model is trained using the famous Iris dataset from the UCI Machine Learning Repository and the K-Nearest Neighbors (KNN) algorithm.
+## Overview
 
-## 📌 Project Overview
+This project is a machine learning model that classifies iris flowers into three different species based on their physical characteristics. It uses the well-known Iris dataset and the K-Nearest Neighbors (KNN) algorithm to make predictions.
 
-The Iris dataset contains measurements of iris flowers from three different species:
+The project demonstrates the complete machine learning workflow, including data exploration, preprocessing, model training, evaluation, and prediction. It is a beginner-friendly project for understanding supervised learning and classification.
 
-- Iris-setosa
-- Iris-versicolor
-- Iris-virginica
+---
 
-The goal is to predict the species based on four flower features.
+## Dataset
 
-## 📊 Dataset
+The project uses the **Iris Dataset**, one of the most popular datasets for machine learning beginners.
 
-The dataset contains:
+The dataset contains 150 flower samples with the following features:
 
 - Sepal Length
 - Sepal Width
 - Petal Length
 - Petal Width
-- Species (Target)
 
-Source:
-UCI Machine Learning Repository
+The target variable is the flower species:
 
-## 🛠️ Technologies Used
+- Iris Setosa
+- Iris Versicolor
+- Iris Virginica
+
+---
+
+## Features
+
+- Data loading and preprocessing
+- Exploratory Data Analysis (EDA)
+- Data visualization
+- Train-test split
+- Model training using K-Nearest Neighbors (KNN)
+- Model evaluation
+- Prediction on new data
+
+---
+
+## Technologies Used
 
 - Python
-- Pandas
+- Jupyter Notebook
 - NumPy
+- Pandas
 - Matplotlib
 - Seaborn
 - Scikit-learn
+
+---
+
+## Project Structure
+
+```
+Iris Flower.ipynb
+README.md
+```
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Make sure Python 3 is installed on your system.
+
+Install the required libraries using:
+
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn
+```
+
+You can run this project using:
+
 - Jupyter Notebook
+- Google Colab
 
-## 📚 Machine Learning Algorithm
+---
 
-- K-Nearest Neighbors (KNN)
+## Installation
 
-## 📂 Project Workflow
-
-1. Import libraries
-2. Load the Iris dataset
-3. Explore and visualize the data
-4. Split data into training and testing sets
-5. Train the KNN classifier
-6. Make predictions
-7. Evaluate model performance
-
-## 📈 Data Visualization
-
-The project includes:
-
-- Dataset summary
-- Statistical analysis
-- Pair Plot visualization
-- Feature exploration
-
-## 🚀 How to Run
-
-1. Clone this repository.
+1. Clone the repository.
 
 ```bash
-git clone https://github.com/your-username/Iris-Flower-Classification.git
+git clone https://github.com/your-username/iris-flower-classification.git
 ```
 
-2. Install the required libraries.
+2. Move to the project folder.
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+cd iris-flower-classification
 ```
 
-3. Open the notebook in Jupyter Notebook or Google Colab.
+3. Launch Jupyter Notebook.
 
-4. Run all cells.
-
-## 📦 Libraries Used
-
-```python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-from sklearn.model_selection import train_test_split
-from sklearn.neighbors import KNeighborsClassifier
+```bash
+jupyter notebook
 ```
 
-## 🎯 Learning Outcomes
+4. Open **Iris Flower.ipynb** and run all the cells.
 
-- Data preprocessing
-- Exploratory Data Analysis (EDA)
-- Data visualization
-- Machine Learning model training
-- Model evaluation
-- Classification using KNN
+---
 
-## 🔮 Future Improvements
+## How It Works
 
-- Compare multiple machine learning algorithms
+The project follows these steps:
+
+1. Import the required libraries.
+2. Load the Iris dataset.
+3. Explore and visualize the data.
+4. Split the dataset into training and testing sets.
+5. Train a K-Nearest Neighbors (KNN) classifier.
+6. Evaluate the model using the test data.
+7. Predict the species of new iris flowers.
+
+---
+
+## Results
+
+The trained model successfully classifies iris flowers into their respective species based on their measurements.
+
+The notebook also includes visualizations and evaluation results to help understand the model's performance.
+
+---
+
+## Learning Outcomes
+
+This project helped me learn how to:
+
+- Work with real-world datasets
+- Perform exploratory data analysis (EDA)
+- Visualize data using Matplotlib and Seaborn
+- Build and train a classification model
+- Evaluate machine learning models
+- Make predictions using Scikit-learn
+
+---
+
+## Future Improvements
+
+Possible improvements include:
+
+- Compare multiple classification algorithms
 - Perform hyperparameter tuning
-- Deploy the model using Flask or Streamlit
-- Build a web interface for predictions
+- Use cross-validation for better evaluation
+- Build a web application using Streamlit or Flask
+- Deploy the model for online predictions
 
-## 👩‍💻 Author
+---
+
+## Author
 
 **Aleeza Fatima**
 
-Computer Science Student | Aspiring AI & Machine Learning Engineer
+Computer Science Student with an interest in Artificial Intelligence, Machine Learning, and Software Development.
+
+---
+
+
